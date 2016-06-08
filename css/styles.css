@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    color: #333;
+    font: 16px arial,sans-serif;
+    background: #808080;
+    text-align: justify;
+}
+img {
+    border-style: none;
+}
+input,
+textarea,
+select {
+    font: 100% arial,sans-serif;
+    vertical-align: middle;
+}
+form,
+fieldset {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+a {
+    text-decoration: underline;
+}
+p {
+    margin: 0;
+}
+h2{
+    margin: 5px 0;
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+    margin: 6px 0;
+    
+}
+a:hover {
+    text-decoration: none;
+}
+.logo {
+    width: 200px;
+    height: 109px;
+    float: left;
+    background: url(../images/logo.png);
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.logo a {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+.wrapper-header h1 {
+    float: left;
+    margin: 40px 0 0 10px;
+    font: 30px "Times New Roman", serif;
+    font-weight: bold;
+}
+.section-logo {
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper-header,
+.wrapper-main,
+.wrapper-footer {
+    width: 803px;
+    padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 12px 12px 12px 12px;
+}
+.wrapper-footer {
+    text-align: center;
+}
+/*navigation*/
+.wrapper-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Times New Roman", serif;
+}
+.wrapper-nav {
+    margin: 0 20px 5px 205px;
+    clear: both;
+    display: table;
+}
+.wrapper-nav ul li {
+    float: left;
+    margin-left: 7px;
+}
+.wrapper-nav ul li:hover {
+    position: relative;
+}
+.wrapper-nav ul li:hover ul {
+    display: block;
+}
+.wrapper-nav ul ul {
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 100%;
+    z-index: 100;
+    display: none;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #000;
+}
+.wrapper-nav ul ul li {
+    float: none;
+}
+/*nav end*/
+.add-inform {
+    width: 26.5%;
+    float: right;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background: #c0c0c0;
+    margin: 0 0 5px 5px;
+    font: 13px "Times New Roman", serif;
+}
+.add-inform h3{
+    margin: 5px 0;
+    font-size: 15px;
+}
+.description dl {
+    margin: 0;
+}
+/*calculator*/
+.calc table {
+    width: 250px;
+    margin: 0 auto;
+}
+.calc table tr {
+    width: 250px;
+}
+.calc input {
+    padding: 0;
+    width: 100%;
+    height: 30px;
+}
+.calc input[type="text"] {
+    width: 250px;
+}
+input[name="btn-equals"] {
+    height: 64px;
+}
+/*end calculator*/
